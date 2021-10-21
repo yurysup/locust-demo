@@ -1,0 +1,1 @@
+locust --locustfile demo.py --headless --users 5 --spawn-rate 1 --run-time 30s -H https://test.k6.io --csv results/demo --csv-full-history --html results/report.html --only-summary
